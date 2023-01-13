@@ -1,5 +1,6 @@
 import React from "react";
 import ContactItem from "./ContactItem";
+import Social from "./Social";
 
 function Profile() {
   // create contact list
@@ -7,26 +8,41 @@ function Profile() {
     {
       icon: "mail-outline",
       title: "Email",
-      link: "mailto:huba@ferencz.com",
-      text: "huba@ferencz.com",
+      text: "contact@hubaferencz.com",
+      copyable: true,
     },
     {
-      icon: "phone-portrait-outline",
-      title: "Phone",
-      link: "tel:+12133522795",
-      text: "+40 (757) 797-751",
+      icon: "paper-plane-outline",
+      title: "Telegram",
+      text: "@hubaferencz",
+      copyable: true,
     },
     {
       icon: "calendar-outline",
       title: "Birthday",
-      link: "",
       text: "December 20, 2004",
+      copyable: false,
     },
     {
       icon: "location-outline",
       title: "Location",
-      link: "",
       text: "Budapest, Hungary",
+      copyable: false,
+    },
+  ];
+
+  const socialList = [
+    {
+      logo: "logo-twitter",
+      link: "https://www.twitter.com/huba__ferencz",
+    },
+    {
+      logo: "logo-github",
+      link: "https://www.github.com/h-ferencz/",
+    },
+    {
+      logo: "logo-linkedin",
+      link: "https://www.linkedin.com/in/hubaferencz/",
     },
   ];
 
@@ -45,7 +61,7 @@ function Profile() {
             <h1 className="name" title="Huba Ferencz">
               Huba Ferencz
             </h1>
-            <p className="title">Web developer</p>
+            <p className="title">Web3 Developer</p>
           </div>
           <button className="info_more-btn" data-sidebar-btn="">
             <span>Show Contacts</span>
@@ -56,34 +72,23 @@ function Profile() {
           <div className="separator" />
           <ul className="contacts-list">
             {contactList.map((item, index) => {
-                return (
-                    <ContactItem
-                        key={index}
-                        icon={item.icon}
-                        title={item.title}
-                        link={item.link}
-                        text={item.text}
-                    />
-                );
+              return (
+                <ContactItem
+                  key={index}
+                  icon={item.icon}
+                  title={item.title}
+                  link={item.link}
+                  text={item.text}
+                  copyable={item.copyable}
+                />
+              );
             })}
           </ul>
           <div className="separator" />
           <ul className="social-list">
-            <li className="social-item">
-              <a href="#" className="social-link">
-                <ion-icon name="logo-facebook" />
-              </a>
-            </li>
-            <li className="social-item">
-              <a href="#" className="social-link">
-                <ion-icon name="logo-twitter" />
-              </a>
-            </li>
-            <li className="social-item">
-              <a href="#" className="social-link">
-                <ion-icon name="logo-instagram" />
-              </a>
-            </li>
+            {socialList.map((item, index) => {
+              return <Social key={index} logo={item.logo} link={item.link} />;
+            })}
           </ul>
         </div>
       </aside>

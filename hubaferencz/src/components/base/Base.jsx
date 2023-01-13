@@ -3,6 +3,7 @@ import Profile from "./profile/Profile";
 import Navbar from "./Navbar";
 // import about
 import About from "../pages/about/About";
+import { ToastContainer } from "react-toastify";
 
 function Base() {
   return (
@@ -12,7 +13,6 @@ function Base() {
 - #main-content
     */}
       <div className="main-content">
- 
         <Navbar />
         {/*
   - #ABOUT
@@ -563,7 +563,6 @@ function Base() {
                 height={300}
                 loading="lazy"
               />
-              
             </figure>
           </section>
           <section className="contact-form">
@@ -608,6 +607,18 @@ function Base() {
           </section>
         </article>
       </div>
+      <ToastContainer
+        position="top-right"
+        autoClose={1500}
+        hideProgressBar={true}
+        newestOnTop
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
     </>
   );
 }
