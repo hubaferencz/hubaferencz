@@ -3,21 +3,17 @@ import React from "react";
 function ServiceCard(props) {
   return (
     <>
-      <li className="service-item">
+      <li className="service-item disable-select">
         <div className="service-icon-box">
           <img
-            src="./assets/images/icon-design.svg
-          "
-            alt="design icon"
-            width={40}
+            src={props.icon}
+            alt="icon"
+            width={50}
           />
         </div>
         <div className="service-content-box">
-          <h4 className="h4 service-item-title">Web design</h4>
-          <p className="service-item-text">
-            The most modern and high-quality design made at a professional
-            level.
-          </p>
+          <h4 className="h4 service-item-title">{props.title}</h4>
+          <p className="service-item-text">{props.text}</p>
         </div>
       </li>
     </>

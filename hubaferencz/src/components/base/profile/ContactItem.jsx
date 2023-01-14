@@ -22,7 +22,7 @@ function ContactItem(props) {
           <div className="contact-info">
             <p className="contact-title">
               {props.title}
-              <ion-icon className="clipboard" name="clipboard" />
+              <ion-icon className="clipboard" name="clipboard-outline" />
             </p>
             <p className="contact-link">{props.text}</p>
           </div>
