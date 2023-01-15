@@ -1,26 +1,20 @@
 import React from "react";
 import Profile from "./profile/Profile";
 import Navbar from "./Navbar";
-// import about
-import About from "../pages/about/About";
 import { ToastContainer } from "react-toastify";
+
+import { Outlet } from "react-router-dom";
 
 function Base() {
   return (
     <>
       <Profile />
-      {/*
-- #main-content
-    */}
+      
       <div className="main-content">
         <Navbar />
-        {/*
-  - #ABOUT
-*/}
-        <About />
-        {/*
-  - #RESUME
-*/}
+        <Outlet />
+        {/* <About />
+   
         <article className="resume" data-page="resume">
           <header>
             <h2 className="h2 article-title">Resume</h2>
@@ -158,9 +152,7 @@ function Base() {
             </ul>
           </section>
         </article>
-        {/*
-  - #PORTFOLIO
-*/}
+     
         <article className="portfolio" data-page="portfolio">
           <header>
             <h2 className="h2 article-title">Portfolio</h2>
@@ -390,9 +382,7 @@ function Base() {
             </ul>
           </section>
         </article>
-        {/*
-  - #BLOG
-*/}
+       
         <article className="blog" data-page="blog">
           <header>
             <h2 className="h2 article-title">Blog</h2>
@@ -548,9 +538,7 @@ function Base() {
             </ul>
           </section>
         </article>
-        {/*
-  - #CONTACT
-*/}
+      
         <article className="contact" data-page="contact">
           <header>
             <h2 className="h2 article-title">Contact</h2>
@@ -605,7 +593,7 @@ function Base() {
               </button>
             </form>
           </section>
-        </article>
+        </article> */}
       </div>
       <ToastContainer
         position="top-right"
