@@ -20,12 +20,12 @@ function About() {
     {
       icon: WebDev,
       title: "Web development",
-      text: "High-quality development of sites at the professional level.",
+      text: "High-quality, responsive development of sites at the professional level.",
     },
     {
       icon: BlockchainDev,
       title: "Blockchain development",
-      text: "Solidity and Blockchain development, building smart contracts.",
+      text: "Solidity and Blockchain development, building smart contracts",
     },
   ];
 
@@ -33,17 +33,17 @@ function About() {
     {
       img: Rebekah,
       name: "Rebekah",
-      text: "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.",
+      text: "He was very easy to work with and we would definitely hire him again.",
     },
     {
       img: Jeroen,
       name: "Jeroen",
-      text: "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.",
+      text: "I explained, and he built my project even better than I imagined it!",
     },
     {
       img: Joshua,
       name: "Joshua",
-      text: "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.",
+      text: "Excellent communicator. He works very hard and quickly. I can only recommend him!",
     },
   ];
 
@@ -73,17 +73,20 @@ function About() {
         </header>
         <section className="about-text">
           <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia,
-            working in web development and print media. I enjoy turning complex
-            problems into simple, beautiful and intuitive designs.
+            I am a Web3 developer, working in the Web3 and Crypto space. I enjoy
+            turning mere ideas into production-ready web applications, ready to
+            scale and make people's lives easier. I'm used to designing,
+            developing, testing, and deploying my clients' or my own projects.
           </p>
           <p>
-            My job is to build your website so that it is functional and
-            user-friendly but at the same time attractive. Moreover, I add
-            personal touch to your product and make sure that is eye-catching
-            and easy to use. My aim is to bring across your message and identity
-            in the most creative way. I created web design for many famous brand
-            companies.
+            My job is to create your web app so that it is functional and
+            user-friendly while also being integrated into the cryptoverse.
+            Moreover, I make sure that the site is eye-catching and easy to use.
+            I aim to bring across your company's message, identity, and goals in
+            the most creative way possible. If you feel like I would be a good
+            fit for your company or have a project that needs to be built,
+            please don't hesitate to contact me. I would be more than delighted
+            to work with you!
           </p>
         </section>
         {/*
