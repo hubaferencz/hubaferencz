@@ -1,5 +1,5 @@
 // eslint-disable-next-line
-import React from "react";
+import React, { useState } from "react";
 
 import { Helmet } from "react-helmet";
 
@@ -17,33 +17,25 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route
-            path="/"
-            element={
-              <div>
-                <Base />
-              </div>
-            }
-          >
+          <Route path="/" element={<Base />}>
             <Route index element={<About />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
           </Route>
         </Routes>
+        <Helmet>
+          <script src="./Animations.js" type="text/javascript" />
+          <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+          ></script>
+          <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+          ></script>
+        </Helmet>
       </BrowserRouter>
-
-      <Helmet>
-        <script src="./Animations.js" type="text/javascript" />
-        <script
-          type="module"
-          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-        ></script>
-        <script
-          nomodule
-          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-        ></script>
-      </Helmet>
     </>
   );
 }

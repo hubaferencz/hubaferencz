@@ -1,44 +1,55 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-function Navbar() {
+import about from "./../images/huba ferencz about.png";
+import resume from "./../images/huba ferencz resume.png";
+import portfolio from "./../images/huba ferencz portfolio.png";
+import contact from "./../images/huba ferencz contact.png";
+
+function Navbar(props) {
+  
+  
+  
   return (
     <>
       <nav className="navbar">
         <ul className="navbar-list">
-          <Link to="/">
-            <li className="navbar-item">
-              <button className="navbar-link  active" data-nav-link="">
-                About
-              </button>
-            </li>
-          </Link>
-          <Link to="/resume">
-            <li className="navbar-item">
-              <button className="navbar-link" data-nav-link="">
-                Resume
-              </button>
-            </li>
-          </Link>
-          <Link to="/portfolio">
-            <li className="navbar-item">
-              <button className="navbar-link" data-nav-link="">
-                Portfolio
-              </button>
-            </li>
-          </Link>
-          {/* <li className="navbar-item">
-            <button className="navbar-link" data-nav-link="">
-              Blog
-            </button>
-          </li> */}
-          <Link to="/contact">
-            <li className="navbar-item">
-              <button className="navbar-link" data-nav-link="">
-                Contact
-              </button>
-            </li>
-          </Link>
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? "navbar-link  active" : "navbar-link"
+            }
+            onClick={() => props.setProfileImage(about)}
+          >
+            <li className="navbar-item">About</li>
+          </NavLink>
+          <NavLink
+            to="/resume"
+            className={({ isActive }) =>
+              isActive ? "navbar-link  active" : "navbar-link"
+            }
+            onClick={() => props.setProfileImage(resume)}
+          >
+            <li className="navbar-item">Resume</li>
+          </NavLink>
+          <NavLink
+            to="/portfolio"
+            className={({ isActive }) =>
+              isActive ? "navbar-link  active" : "navbar-link"
+            }
+            onClick={() => props.setProfileImage(portfolio)}
+          >
+            <li className="navbar-item">Portfolio</li>
+          </NavLink>
+          <NavLink
+            to="/contact"
+            className={({ isActive }) =>
+              isActive ? "navbar-link  active" : "navbar-link"
+            }
+            onClick={() => props.setProfileImage(contact)}
+          >
+            <li className="navbar-item">Contact</li>
+          </NavLink>
         </ul>
       </nav>
     </>

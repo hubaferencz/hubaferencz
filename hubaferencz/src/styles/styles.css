@@ -95,6 +95,17 @@
 	padding: 0;
 	box-sizing: border-box;
   }
+
+  body {
+	overflow: scroll;
+
+  }
+
+  /* make scrollbar height 100% */
+  ::-webkit-scrollbar {
+	/* width: 0.5rem; */
+	height: 100%;
+}
   
   a {
 	text-decoration: none;
@@ -785,13 +796,11 @@
   
   .clients-item img {
 	width: 100%;
-	filter: grayscale(1);
+	/* filter: grayscale(1); */
 	transition: var(--transition-1);
   }
   
-  .clients-item img:hover {
-	filter: grayscale(0);
-  }
+ 
   
   /*-----------------------------------*\
 	  #RESUME
@@ -1202,7 +1211,12 @@
 	width: 100%;
 	height: 100%;
 	border: none;
-	filter: grayscale(1) invert(1);
+	transition: 0.3s;
+	filter: grayscale(0.7);
+  }
+  .mapbox iframe:hover {
+	transition: 0.3s;
+	filter: grayscale(0);
   }
   
   .contact-form {
@@ -1413,10 +1427,13 @@
   
 	.avatar-box {
 	  border-radius: 30px;
+	  animation: fade 0.5s ease backwards;
 	}
   
 	.avatar-box img {
 	  width: 120px;
+
+	animation: fade 0.5s ease backwards;
 	}
   
 	.info-content .name {

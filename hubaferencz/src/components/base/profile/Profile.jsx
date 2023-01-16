@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
 import ContactItem from "./ContactItem";
 import Social from "./Social";
 
-function Profile() {
+import about from "../../images/huba ferencz about.png";
+import resume from "../../images/huba ferencz resume.png";
+import portfolio from "../../images/huba ferencz portfolio.png";
+import contact from "../../images/huba ferencz contact.png";
+
+function Profile(props) {
   // create contact list
   const contactList = [
     {
@@ -46,16 +53,36 @@ function Profile() {
     },
   ];
 
+  // show contact list on click
+  const showContactList = () => {
+    const sidebar = document.querySelector("[data-sidebar]");
+    const sidebarBtn = document.querySelector("[data-sidebar-btn]");
+    sidebar.classList.toggle("active");
+    sidebarBtn.classList.toggle("active");
+  };
+
+  const location = useLocation();
+
+  let pathname = location.pathname;
+
+  useEffect(() => {
+    if (pathname === "/") {
+      props.setProfileImage(about);
+    } else if (pathname === "/resume") {
+      props.setProfileImage(resume);
+    } else if (pathname === "/portfolio") {
+      props.setProfileImage(portfolio);
+    } else if (pathname === "/contact") {
+      props.setProfileImage(contact);
+    }
+  }, [pathname, props]);
+
   return (
     <>
       <aside className="sidebar" data-sidebar="">
         <div className="sidebar-info">
           <figure className="avatar-box">
-            <img
-              src={require("../../images/huba ferencz about.png")}
-              alt="Huba Ferencz"
-              width={80}
-            />
+            <img src={props.profileImage} alt="Huba Ferencz" width={80} />
           </figure>
           <div className="info-content">
             <h1 className="name" title="Huba Ferencz">
@@ -63,7 +90,11 @@ function Profile() {
             </h1>
             <p className="title">Web3 Developer</p>
           </div>
-          <button className="info_more-btn" data-sidebar-btn="">
+          <button
+            className="info_more-btn"
+            onClick={showContactList}
+            data-sidebar-btn=""
+          >
             <span>Show Contacts</span>
             <ion-icon name="chevron-down" />
           </button>
