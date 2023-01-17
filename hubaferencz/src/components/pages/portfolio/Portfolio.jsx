@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Projects from "./Projects.json";
+import portfolioData from "./Portfolio.json";
 
 function Portfolio() {
   // create filter function for portfolio
@@ -101,7 +101,7 @@ function Portfolio() {
   // ];
 
   // create state for portfolio items
-  const [portfolio] = useState(Projects.portfolio.categories);
+  const [portfolio] = useState(portfolioData.portfolio.categories);
   // console.log(portfolio);
 
   // map through portfolio items and console.log them

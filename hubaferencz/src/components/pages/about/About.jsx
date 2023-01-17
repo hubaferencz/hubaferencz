@@ -43,7 +43,7 @@ function About() {
     {
       img: Joshua,
       name: "Joshua",
-      text: "Excellent communicator. He works very hard and quickly. I can only recommend him!",
+      text: "Excellent communicator. He works very hard and quickly. ",
     },
   ];
 

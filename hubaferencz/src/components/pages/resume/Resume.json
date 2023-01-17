@@ -1,0 +1,172 @@
+{
+  "resume": [
+    {
+      "id": 1,
+      "icon": "book-outline",
+      "title": "Education",
+      "items": [
+        {
+          "id": 1,
+          "title": "freeCodeCamp",
+          "date": "2018 - 2020",
+          "description": "I started my developer journey at freeCodeCamp.org when I was 14 and didn't speak English. I've been learning ever since."
+        },
+        {
+          "id": 2,
+          "title": "Python Bootcamp",
+          "date": "2020",
+          "description": "I was advised to learn Python as my first programming language, even if I wanted to learn web development.",
+          "link": "https://drive.google.com/file/d/1MDEoR2BwLWB2XJGTiHNO7c7HhGutJLQj/view?usp=share_link"
+        },
+        {
+          "id": 3,
+          "title": "Web Development Bootcamp",
+          "date": "2020 - 2021",
+          "description": "I really mastered my web development skills with this bootcamp. I learned React, Node.js, Express, MongoDB, and more.",
+          "link": "https://drive.google.com/file/d/1LYRFoMVm3hHZz-ssVzYkvv5jjoWbG3D2/view?usp=share_link"
+        },
+        {
+          "id": 4,
+          "title": "High Shcool graduation",
+          "date": "2022",
+          "description": "I dropped out of high school to focus on my developer journey. I took the GED test to earn a High School Equivalency Credential.",
+          "link": "https://drive.google.com/file/d/12evBz3_7w2L1QkUdSN_MMbmwXwBB42GL/view?usp=share_link"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "hammer-outline",
+      "title": "Experience",
+      "items": [
+        {
+          "id": 1,
+          "title": "Freelancing",
+          "date": "2020",
+          "description": "I made automations using Python for example Twitter, Twitch, and Discord bots. I attached one of the major bots I made, it tweets the \"crypto fear and greed index\" and the average funding rate across all major crypto exchanges.",
+          "link": "https://twitter.com/whaleportal"
+        },
+        {
+          "id": 2,
+          "title": "Whaleportal",
+          "date": "2020 - 2021",
+          "description": "The YouTuber (@TheBlockchainToday) for whom I built a Twitter, asked me if I would like to build out his project. He explained the idea he had, and I built Whaleportal from an idea as you see it today.",
+          "link": "https://whaleportal.com/"
+        },
+        {
+          "id": 3,
+          "title": "Moonlanding Media",
+          "date": "2021",
+          "description": "At Moonlanding Media I was hired to build out a function on their site that allows their clients to estimate growth on their projects based on time and money invested.",
+          "link": "https://whaleportal.com/"
+        }
+      ]
+    }
+  ],
+  "skills": [      
+        {
+          "id": 132,
+          "title": "Solidity",
+          "icon": "devicon-solidity-plain colored"
+        },
+        {
+          "id": 1,
+          "title": "ReactJs",
+          "icon": "devicon-react-original colored"
+        },
+        {
+          "id": 2,
+          "title": "Git",
+          "icon": "devicon-git-plain colored"
+        },
+        {
+          "id": 2,
+          "title": "Truffle",
+          "img": "https://seeklogo.com/images/T/truffle-logo-2DC7EBABF2-seeklogo.com.png?v=637807957740000000"
+        },
+        {
+          "id": 2,
+          "title": "Web3Js",
+          "img": "https://seeklogo.com/images/W/web3js-logo-62DEE79B50-seeklogo.com.png"
+        },
+        {
+          "id": 2,
+          "title": "Ganache",
+          "img": "https://seeklogo.com/images/G/ganache-logo-1EB72084A8-seeklogo.com.png"
+        },
+        {
+          "id": 2,
+          "title": "GitHub",
+          "icon": "devicon-github-original colored"
+        },
+        {
+          "id": 2,
+          "title": "JavaScript",
+          "icon": "devicon-javascript-plain colored"
+        },
+        {
+            "id": 7,
+            "title": "NodeJs",
+            "icon": "devicon-nodejs-plain colored"
+        }
+        ,
+        {
+            "id": 8,
+            "title": "Express",
+            "icon": "devicon-express-original colored"
+        }
+        ,
+        {
+            "id": 7,
+            "title": "Firebase",
+            "icon": "devicon-firebase-plain colored"
+        }
+        ,
+        {
+            "id": 8,
+            "title": "MongoDB",
+            "icon": "devicon-mongodb-plain colored"
+        },
+        {
+          "id": 3,
+          "title": "VSCode",
+          "icon": "devicon-vscode-plain colored"
+        },
+        {
+          "id": 3,
+          "title": "jQuery",
+          "icon": "devicon-jquery-plain colored"
+        },
+        {
+          "id": 3,
+          "title": "HTML",
+          "icon": "devicon-html5-plain colored"
+        },
+        {
+          "id": 4,
+          "title": "CSS",
+          "icon": "devicon-css3-plain colored"
+        }
+        ,
+        {
+          "id": 5,
+          "title": "Sass",
+          "icon": "devicon-sass-original colored"
+        }
+        ,
+        {
+          "id": 5,
+          "title": "MacOS",
+          "icon": "devicon-apple-original"
+        }
+        ,
+        {
+          "id": 6,
+          "title": "Bootstrap",
+          "icon": "devicon-bootstrap-plain colored"
+        }
+        
+      ]
+    
+  
+}

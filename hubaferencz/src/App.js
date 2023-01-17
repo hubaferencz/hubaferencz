@@ -34,6 +34,8 @@ function App() {
             nomodule
             src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
           ></script>
+          
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
         </Helmet>
       </BrowserRouter>
     </>
