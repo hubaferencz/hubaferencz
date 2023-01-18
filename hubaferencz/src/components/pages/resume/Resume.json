@@ -63,110 +63,102 @@
       ]
     }
   ],
-  "skills": [      
-        {
-          "id": 132,
-          "title": "Solidity",
-          "icon": "devicon-solidity-plain colored"
-        },
-        {
-          "id": 1,
-          "title": "ReactJs",
-          "icon": "devicon-react-original colored"
-        },
-        {
-          "id": 2,
-          "title": "Git",
-          "icon": "devicon-git-plain colored"
-        },
-        {
-          "id": 2,
-          "title": "Truffle",
-          "img": "https://seeklogo.com/images/T/truffle-logo-2DC7EBABF2-seeklogo.com.png?v=637807957740000000"
-        },
-        {
-          "id": 2,
-          "title": "Web3Js",
-          "img": "https://seeklogo.com/images/W/web3js-logo-62DEE79B50-seeklogo.com.png"
-        },
-        {
-          "id": 2,
-          "title": "Ganache",
-          "img": "https://seeklogo.com/images/G/ganache-logo-1EB72084A8-seeklogo.com.png"
-        },
-        {
-          "id": 2,
-          "title": "GitHub",
-          "icon": "devicon-github-original colored"
-        },
-        {
-          "id": 2,
-          "title": "JavaScript",
-          "icon": "devicon-javascript-plain colored"
-        },
-        {
-            "id": 7,
-            "title": "NodeJs",
-            "icon": "devicon-nodejs-plain colored"
-        }
-        ,
-        {
-            "id": 8,
-            "title": "Express",
-            "icon": "devicon-express-original colored"
-        }
-        ,
-        {
-            "id": 7,
-            "title": "Firebase",
-            "icon": "devicon-firebase-plain colored"
-        }
-        ,
-        {
-            "id": 8,
-            "title": "MongoDB",
-            "icon": "devicon-mongodb-plain colored"
-        },
-        {
-          "id": 3,
-          "title": "VSCode",
-          "icon": "devicon-vscode-plain colored"
-        },
-        {
-          "id": 3,
-          "title": "jQuery",
-          "icon": "devicon-jquery-plain colored"
-        },
-        {
-          "id": 3,
-          "title": "HTML",
-          "icon": "devicon-html5-plain colored"
-        },
-        {
-          "id": 4,
-          "title": "CSS",
-          "icon": "devicon-css3-plain colored"
-        }
-        ,
-        {
-          "id": 5,
-          "title": "Sass",
-          "icon": "devicon-sass-original colored"
-        }
-        ,
-        {
-          "id": 5,
-          "title": "MacOS",
-          "icon": "devicon-apple-original"
-        }
-        ,
-        {
-          "id": 6,
-          "title": "Bootstrap",
-          "icon": "devicon-bootstrap-plain colored"
-        }
-        
-      ]
-    
-  
+  "skills": [
+    {
+      "id": 132,
+      "title": "Solidity",
+      "icon": "devicon-solidity-plain colored"
+    },
+    {
+      "id": 1,
+      "title": "ReactJs",
+      "icon": "devicon-react-original colored"
+    },
+    {
+      "id": 2,
+      "title": "Git",
+      "icon": "devicon-git-plain colored"
+    },
+    {
+      "id": 2,
+      "title": "Truffle",
+      "img": "https://seeklogo.com/images/T/truffle-logo-2DC7EBABF2-seeklogo.com.png?v=637807957740000000"
+    },
+    {
+      "id": 2,
+      "title": "Web3Js",
+      "img": "https://seeklogo.com/images/W/web3js-logo-62DEE79B50-seeklogo.com.png"
+    },
+    {
+      "id": 2,
+      "title": "Ganache",
+      "img": "https://seeklogo.com/images/G/ganache-logo-1EB72084A8-seeklogo.com.png"
+    },
+    {
+      "id": 2,
+      "title": "GitHub",
+      "icon": "devicon-github-original colored"
+    },
+    {
+      "id": 2,
+      "title": "JavaScript",
+      "icon": "devicon-javascript-plain colored"
+    },
+    {
+      "id": 7,
+      "title": "NodeJs",
+      "icon": "devicon-nodejs-plain colored"
+    },
+
+    {
+      "id": 7,
+      "title": "Firebase",
+      "icon": "devicon-firebase-plain colored"
+    },
+    {
+      "id": 8,
+      "title": "Express",
+      "icon": "devicon-express-original colored"
+    },
+    {
+      "id": 8,
+      "title": "MongoDB",
+      "icon": "devicon-mongodb-plain colored"
+    },
+    {
+      "id": 3,
+      "title": "VSCode",
+      "icon": "devicon-vscode-plain colored"
+    },
+    {
+      "id": 3,
+      "title": "jQuery",
+      "icon": "devicon-jquery-plain colored"
+    },
+    {
+      "id": 3,
+      "title": "HTML",
+      "icon": "devicon-html5-plain colored"
+    },
+    {
+      "id": 4,
+      "title": "CSS",
+      "icon": "devicon-css3-plain colored"
+    },
+    {
+      "id": 5,
+      "title": "Sass",
+      "icon": "devicon-sass-original colored"
+    },
+    {
+      "id": 5,
+      "title": "MacOS",
+      "icon": "devicon-apple-original"
+    },
+    {
+      "id": 6,
+      "title": "Bootstrap",
+      "icon": "devicon-bootstrap-plain colored"
+    }
+  ]
 }

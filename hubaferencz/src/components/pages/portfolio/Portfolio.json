@@ -3,40 +3,6 @@
     "categories": [
       {
         "id": "1",
-        "title": "Web Development",
-        "projects": [
-          {
-            "id": 1,
-            "title": "Todo App",
-            "description": "A simple todo app",
-            "image": "project-1.jpg",
-            "url": "todo-app.hubaferencz.com"
-          },
-          {
-            "id": 2,
-            "title": "Weather App",
-            "description": "A simple weather app",
-            "image": "project-1.jpg",
-            "url": "weather-app.hubaferencz.com"
-          },
-          {
-            "id": 3,
-            "title": "Movie App",
-            "description": "A simple movie app",
-            "image": "project-2.png",
-            "url": "movie-app.hubaferencz.com"
-          },
-          {
-            "id": 4,
-            "title": "Chat App",
-            "description": "A simple chat app",
-            "image": "project-4.png",
-            "url": "chat-app.hubaferencz.com"
-          }
-        ]
-      },
-      {
-        "id": "2",
         "title": "Web3 Development",
         "projects": [
           {
@@ -57,24 +23,23 @@
         ]
       },
       {
-        "id": "3",
-        "title": "Backend Development",
+        "id": "2",
+        "title": "Web Development",
         "projects": [
           {
             "id": 1,
-            "title": "Chat app",
-            "description": "A simple chat app using firebase",
-            "image": "project-9.png",
-            "url": "nft-marketplace.hubaferencz.com"
+            "title": "Whaleportal",
+            "description": "Crypto trading dashboard",
+            "image": "whaleportal-project.png",
+            "url": "todo-app.hubaferencz.com"
           },
           {
             "id": 2,
-            "title": "Simple todo app using nodejs",
-            "description": "Web3 freelancing site",
-            "image": "project-2.png",
-            "url": "hirebite.com"
+            "title": "Moonlanding Media",
+            "description": "NFT Marketing Agency",
+            "image": "moonlanding-project.png",
+            "url": "weather-app.hubaferencz.com"
           }
-          
         ]
       }
       
