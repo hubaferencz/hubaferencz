@@ -837,10 +837,22 @@ main {
 }
 
 .timeline-item-title {
+  display: flex;
   font-size: var(--fs-6);
   line-height: 1.3;
   margin-bottom: 7px;
 }
+
+
+.timeline-item-title ion-icon {
+  color: var(--light-green);
+  font-size: 20px;
+  margin: 0;
+  margin-left: 5px;
+  /* tilt icon 25 degrees */
+  transform: rotate(-35deg);
+}
+
 
 .timeline-list span {
   color: var(--dark-green);
@@ -2085,3 +2097,4 @@ textarea.form-input::-webkit-resizer {
     font-size: 3rem;
   }
 }
+

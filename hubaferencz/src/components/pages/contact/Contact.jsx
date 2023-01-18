@@ -1,4 +1,5 @@
 import React from "react";
+import EmailContactForm from "./EmailContactForm";
 
 function Contact() {
   return (
@@ -18,7 +19,7 @@ function Contact() {
       </section>
       <section className="contact-form">
         <h3 className="h3 form-title">Contact Form</h3>
-        <form action="#" className="form" data-form="">
+        {/* <form action="#" className="form" data-form="">
           <div className="input-wrapper">
             <input
               type="text"
@@ -54,7 +55,8 @@ function Contact() {
             <ion-icon name="paper-plane" />
             <span>Send Message</span>
           </button>
-        </form>
+        </form> */}
+        <EmailContactForm />
       </section>
     </article>
   );

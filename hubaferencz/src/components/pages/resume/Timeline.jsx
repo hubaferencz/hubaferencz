@@ -18,6 +18,7 @@ function Timeline(props) {
                 date={item.date}
                 description={item.description}
                 key={item.id}
+                link={item.link}
             />
         ))}
         
