@@ -38,7 +38,7 @@ function Resume() {
               <TechStackItem
                 title={item.title}
                 icon={item.icon}
-                key={item.id}
+                key={item.title+item.id}
                 img={item.img}
               />
             ))}

@@ -3,42 +3,42 @@
     "categories": [
       {
         "id": "1",
-        "title": "Web3 Development",
+        "title": "Web 3.0",
         "projects": [
           {
             "id": 1,
             "title": "NFT marketplace",
             "description": "A simple todo app",
             "image": "project-8.jpg",
-            "url": "nft-marketplace.hubaferencz.com"
+            "url": "https://www.alchemy.com/"
           },
           {
             "id": 2,
             "title": "HireBite",
             "description": "Web3 freelancing site",
             "image": "project-7.png",
-            "url": "hirebite.com"
+            "url": "https://hirebite.com/"
           }
           
         ]
       },
       {
         "id": "2",
-        "title": "Web Development",
+        "title": "Web 2.0",
         "projects": [
           {
             "id": 1,
             "title": "Whaleportal",
             "description": "Crypto trading dashboard",
             "image": "whaleportal-project.png",
-            "url": "todo-app.hubaferencz.com"
+            "url": "https://whaleportal.com/"
           },
           {
             "id": 2,
             "title": "Moonlanding Media",
             "description": "NFT Marketing Agency",
             "image": "moonlanding-project.png",
-            "url": "weather-app.hubaferencz.com"
+            "url": "https://moonlanding.media/"
           }
         ]
       }

@@ -189,7 +189,7 @@ function Portfolio() {
                   data-filter-item
                   data-category={category.title}
                 >
-                  <a href={project.link}>
+                  <a href={project.url} target="_blank">
                     <figure className="project-img">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline" />
