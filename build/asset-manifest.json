@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.693869b2.css",
-    "main.js": "/static/js/main.8da414ed.js",
+    "main.js": "/static/js/main.5318b101.js",
     "static/media/moonlanding-project.png": "/static/media/moonlanding-project.1551e9ae5f2418489ba9.png",
     "static/media/whaleportal-project.png": "/static/media/whaleportal-project.ad4b044eaf239986cbd2.png",
     "static/media/project-whaleportal.png": "/static/media/project-whaleportal.cafd28e2c1aada1380ca.png",
@@ -28,10 +28,10 @@
     "static/media/icon-quote.svg": "/static/media/icon-quote.478aa3c6ff76bfa1cc65.svg",
     "index.html": "/index.html",
     "main.693869b2.css.map": "/static/css/main.693869b2.css.map",
-    "main.8da414ed.js.map": "/static/js/main.8da414ed.js.map"
+    "main.5318b101.js.map": "/static/js/main.5318b101.js.map"
   },
   "entrypoints": [
     "static/css/main.693869b2.css",
-    "static/js/main.8da414ed.js"
+    "static/js/main.5318b101.js"
   ]
 }
