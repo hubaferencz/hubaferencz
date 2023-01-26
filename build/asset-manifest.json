@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.693869b2.css",
+    "main.js": "/static/js/main.8da414ed.js",
+    "static/media/moonlanding-project.png": "/static/media/moonlanding-project.1551e9ae5f2418489ba9.png",
+    "static/media/whaleportal-project.png": "/static/media/whaleportal-project.ad4b044eaf239986cbd2.png",
+    "static/media/project-whaleportal.png": "/static/media/project-whaleportal.cafd28e2c1aada1380ca.png",
+    "static/media/Rebekah.png": "/static/media/Rebekah.cfef435b0fa1b80a5bee.png",
+    "static/media/huba ferencz contact.png": "/static/media/huba ferencz contact.f3b00bca8f0d9e6d4a4d.png",
+    "static/media/huba ferencz about.png": "/static/media/huba ferencz about.42cdc88e030d9a9a5229.png",
+    "static/media/huba ferencz resume.png": "/static/media/huba ferencz resume.637dbfff7cdf5986173b.png",
+    "static/media/whaleportal-project.jpg": "/static/media/whaleportal-project.a5a281a2bd9533ce0d74.jpg",
+    "static/media/huba ferencz portfolio.png": "/static/media/huba ferencz portfolio.b28ccb7d43ff56e663e8.png",
+    "static/media/Jeroen.png": "/static/media/Jeroen.4f55cd8d163cd95ba0c2.png",
+    "static/media/blockchain.png": "/static/media/blockchain.9b95d1a19722582a3d02.png",
+    "static/media/Joshua.png": "/static/media/Joshua.2eec92a81716037410b7.png",
+    "static/media/project-7.png": "/static/media/project-7.51a80b10a178cf84d5f1.png",
+    "static/media/web-programming.png": "/static/media/web-programming.8737ad121e130b12f285.png",
+    "static/media/project-8.jpg": "/static/media/project-8.efc7b2a27b13aef13fe7.jpg",
+    "static/media/moonlanding-media.png": "/static/media/moonlanding-media.819c94d0920a4483df07.png",
+    "static/media/hireBite.png": "/static/media/hireBite.246af676bc0d3495361d.png",
+    "static/media/whaleportal.png": "/static/media/whaleportal.83334bce5da3c29eaba7.png",
+    "static/media/icon-dev.svg": "/static/media/icon-dev.2a51ebae3899ae5ab67a.svg",
+    "static/media/icon-design.svg": "/static/media/icon-design.d6326a90fb3a6e270b2f.svg",
+    "static/media/logo.svg": "/static/media/logo.a7c9bf1c5265a6a73cc5.svg",
+    "static/media/icon-photo.svg": "/static/media/icon-photo.2ee37973203f92ec6ac7.svg",
+    "static/media/icon-app.svg": "/static/media/icon-app.db860430683b57c1968a.svg",
+    "static/media/icon-quote.svg": "/static/media/icon-quote.478aa3c6ff76bfa1cc65.svg",
+    "index.html": "/index.html",
+    "main.693869b2.css.map": "/static/css/main.693869b2.css.map",
+    "main.8da414ed.js.map": "/static/js/main.8da414ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.693869b2.css",
+    "static/js/main.8da414ed.js"
+  ]
+}
