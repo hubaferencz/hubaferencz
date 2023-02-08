@@ -10,7 +10,8 @@
             "title": "NFT marketplace",
             "description": "A simple todo app",
             "image": "project-8.jpg",
-            "url": "https://www.alchemy.com/"
+            "url": "https://www.alchemy.com/",
+            "source": "https://github.com/h-ferencz/walletportal"
           },
           {
             "id": 2,
@@ -19,7 +20,6 @@
             "image": "project-7.png",
             "url": "https://hirebite.com/"
           }
-          
         ]
       },
       {
@@ -34,7 +34,15 @@
             "url": "https://whaleportal.com/"
           },
           {
-            "id": 2,
+            "id": 142322,
+            "title": "Walletportal",
+            "description": "Crypto portfolio tracker",
+            "image": "walletportal-project.png",
+            "url": "https://walletportal.org/",
+            "source": "https://github.com/h-ferencz/walletportal"
+          },
+          {
+            "id": 2234,
             "title": "Moonlanding Media",
             "description": "NFT Marketing Agency",
             "image": "moonlanding-project.png",
@@ -42,7 +50,6 @@
           }
         ]
       }
-      
     ]
   }
 }

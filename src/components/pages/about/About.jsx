@@ -13,6 +13,7 @@ import Joshua from "../../images/Joshua.png";
 import Client1 from "../../images/moonlanding-media.png";
 import Client2 from "../../images/whaleportal.png";
 import Client3 from "../../images/hireBite.png";
+import Client4 from "../../images/walletportal.png";
 
 function About() {
   // service cars array
@@ -49,11 +50,6 @@ function About() {
 
   const clients = [
     {
-      img: Client1,
-      name: "Moonlanding Media",
-      link: "https://moonlanding.media/",
-    },
-    {
       img: Client2,
       name: "Whaleportal",
       link: "https://whaleportal.com/",
@@ -62,6 +58,16 @@ function About() {
       img: Client3,
       name: "hireBite",
       link: "https://hirebite.com/",
+    },
+    {
+      img: Client4,
+      name: "Walletportal",
+      link: "https://walletportal.org/",
+    },
+    {
+      img: Client1,
+      name: "Moonlanding Media",
+      link: "https://moonlanding.media/",
     },
   ];
 
@@ -73,20 +79,20 @@ function About() {
         </header>
         <section className="about-text">
           <p>
-            I am a Web3 developer, working in the Web3 and Crypto space. I enjoy
-            turning mere ideas into production-ready web applications, ready to
-            scale and make people's lives easier. I'm used to designing,
-            developing, testing, and deploying my clients' or my own projects.
+            I am a Web developer, working in the traditional Web and dipping my
+            toe in the Web3 space. I enjoy turning mere ideas into
+            production-ready web applications, ready to scale and make people's
+            lives easier. I'm used to designing, developing, testing, and
+            deploying my clients' or my own projects.
           </p>
           <p>
             My job is to create your web app so that it is functional and
-            user-friendly while also being integrated into the cryptoverse.
-            Moreover, I make sure that the site is eye-catching and easy to use.
-            I aim to bring across your company's message, identity, and goals in
-            the most creative way possible. If you feel like I would be a good
-            fit for your company or have a project that needs to be built,
-            please don't hesitate to contact me. I would be more than delighted
-            to work with you!
+            user-friendly. Moreover, I make sure that the site is eye-catching
+            and easy to use. I aim to bring across your company's message,
+            identity, and goals in the most creative way possible. If you feel
+            like I would be a good fit for your company or have a project that
+            needs to be built, please don't hesitate to contact me. I would be
+            more than delighted to work with you!
           </p>
         </section>
         {/*

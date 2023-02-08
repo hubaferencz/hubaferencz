@@ -15,7 +15,7 @@ function Profile(props) {
     {
       icon: "mail-outline",
       title: "Email",
-      text: "contact@hubaferencz.com",
+      text: "huba.ferencz.personal@gmail.com",
       copyable: true,
     },
     {

@@ -42,7 +42,6 @@ function Portfolio() {
     });
   };
 
-  // create array for portfolio items
   // const portfolioItems = [
   //   {
   //     id: 1,
@@ -102,16 +101,7 @@ function Portfolio() {
 
   // create state for portfolio items
   const [portfolio] = useState(portfolioData.portfolio.categories);
-  // console.log(portfolio);
 
-  // map through portfolio items and console.log them
-  //   useEffect(() => {
-  //     portfolio.map((item) => {
-  //       console.log(item.title);
-  //     });
-  //   }, []);
-
-  // return portfolio just like in Portfolio1.jsx
   return (
     <article className="portfolio active" data-page="portfolio">
       <header>
@@ -189,21 +179,31 @@ function Portfolio() {
                   data-filter-item
                   data-category={category.title}
                 >
-                  <a href={project.url} target="_blank">
-                    <figure className="project-img">
-                      <div className="project-item-icon-box">
-                        <ion-icon name="eye-outline" />
+                  <figure className="project-img">
+                    <div className="project-item-icon-box">
+                      <div className="project-item-icon">
+                        <a href={project.url} target="_blank">
+                          <ion-icon name="eye-outline" />
+                        </a>
                       </div>
-                      <img
-                        src={require("../../images/" + project.image)}
-                        alt={project.title}
-                        loading="lazy"
-                      />
-                    </figure>
+                      {/* check if project has project.source only render if has */}
+                       {project.source && (
+                        <div className="project-item-icon">
+                          <a href={project.source} target="_blank">
+                            <ion-icon name="link-outline" />
+                          </a>
+                        </div>
+                      )}
+                    </div>
+                    <img
+                      src={require("../../images/" + project.image)}
+                      alt={project.title}
+                      loading="lazy"
+                    />
+                  </figure>
 
-                    <h3 className="project-title">{project.title}</h3>
-                    <p className="project-category">{project.description}</p>
-                  </a>
+                  <h3 className="project-title">{project.title}</h3>
+                  <p className="project-category">{project.description}</p>
                 </li>
               );
             });

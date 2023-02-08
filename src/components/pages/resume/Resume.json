@@ -50,7 +50,7 @@
           "id": 2,
           "title": "Whaleportal",
           "date": "2020 - 2021",
-          "description": "The YouTuber (@TheBlockchainToday) for whom I built a Twitter, asked me if I would like to build out his project. He explained the idea he had, and I built Whaleportal from an idea as you see it today.",
+          "description": "The YouTuber (@TheBlockchainToday) for whom I built a Twitter bot, asked me if I would like to build out his project. He explained the idea he had, and I built Whaleportal from an idea as you see it today.",
           "link": "https://whaleportal.com/"
         },
         {
@@ -101,6 +101,11 @@
     },
     {
       "id": 2,
+      "title": "ViteJs",
+      "img": "https://vitejs.dev/logo-with-shadow.png"
+    },
+    {
+      "id": 2,
       "title": "JavaScript",
       "icon": "devicon-javascript-plain colored"
     },
@@ -129,6 +134,12 @@
       "id": 3,
       "title": "VSCode",
       "icon": "devicon-vscode-plain colored"
+    },
+
+    {
+      "id": 3,
+      "title": "Tailwind",
+      "icon": "devicon-tailwindcss-plain colored"
     },
     {
       "id": 3,

@@ -843,7 +843,6 @@ main {
   margin-bottom: 7px;
 }
 
-
 .timeline-item-title ion-icon {
   color: var(--light-green);
   font-size: 20px;
@@ -852,7 +851,6 @@ main {
   /* tilt icon 25 degrees */
   transform: rotate(-35deg);
 }
-
 
 .timeline-list span {
   color: var(--dark-green);
@@ -1052,29 +1050,44 @@ main {
 }
 
 .project-item-icon-box {
-  --scale: 0.8;
+  /* lock icons in one line with some space in between them */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 10px; */
 
-  background: var(--jet);
-  color: var(--light-green);
+  --scale: 0.8;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(var(--scale));
   font-size: 20px;
-  padding: 18px;
-  border-radius: 12px;
   opacity: 0;
   z-index: 1;
   transition: var(--transition-1);
 }
 
-.project-item > a:hover .project-item-icon-box {
+.project-item-icon {
+  background: var(--jet);
+  color: var(--light-green);
+  margin: 6px;
+  border-radius: 12px;
+  padding: 18px;
+}
+
+.project-item > figure:hover .project-item-icon-box {
   --scale: 1;
   opacity: 1;
 }
 
 .project-item-icon-box ion-icon {
-  --ionicon-stroke-width: 50px;
+  text-decoration: none;
+  color: var(--light-green);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  /* --ionicon-stroke-width: 50px; */
 }
 
 .project-img img {
@@ -2097,4 +2110,3 @@ textarea.form-input::-webkit-resizer {
     font-size: 3rem;
   }
 }
-
