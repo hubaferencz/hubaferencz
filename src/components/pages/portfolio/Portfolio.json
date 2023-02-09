@@ -7,18 +7,11 @@
         "projects": [
           {
             "id": 1,
-            "title": "NFT marketplace",
-            "description": "A simple todo app",
-            "image": "project-8.jpg",
-            "url": "https://www.alchemy.com/",
-            "source": "https://github.com/h-ferencz/walletportal"
-          },
-          {
-            "id": 2,
-            "title": "HireBite",
-            "description": "Web3 freelancing site",
-            "image": "project-7.png",
-            "url": "https://hirebite.com/"
+            "title": "LaunchChain",
+            "description": "Web3 crowdfunding platform",
+            "image": "launchchain-project.png",
+            "url": "https://launchchain.netlify.app/",
+            "source": "https://github.com/h-ferencz/LaunchChain"
           }
         ]
       },

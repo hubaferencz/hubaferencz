@@ -132,8 +132,8 @@
     },
     {
       "id": 3,
-      "title": "VSCode",
-      "icon": "devicon-vscode-plain colored"
+      "title": "thirdweb",
+      "img": "https://i.ibb.co/ykRYDky/third-web.png"
     },
 
     {
@@ -143,18 +143,18 @@
     },
     {
       "id": 3,
-      "title": "jQuery",
-      "icon": "devicon-jquery-plain colored"
+      "title": "Alchemy",
+      "img": "https://i.ibb.co/zJTjLdd/Alchemy-Logo-Icon.png"
     },
     {
       "id": 3,
-      "title": "HTML",
-      "icon": "devicon-html5-plain colored"
+      "title": "Moralis",
+      "img": "https://i.ibb.co/kGXBX8t/moralis.png"
     },
     {
       "id": 4,
-      "title": "CSS",
-      "icon": "devicon-css3-plain colored"
+      "title": "1inch",
+      "img": "https://i.ibb.co/7K4zwRz/1inch.png"
     },
     {
       "id": 5,
@@ -163,13 +163,13 @@
     },
     {
       "id": 5,
-      "title": "MacOS",
-      "icon": "devicon-apple-original"
+      "title": "Hardhat",
+      "img": "https://i.ibb.co/LPMzCPs/Hardhat-Logo-Icon.png"
     },
     {
       "id": 6,
-      "title": "Bootstrap",
-      "icon": "devicon-bootstrap-plain colored"
+      "title": "wagmi",
+      "img": "https://i.ibb.co/G0KTcTT/wagmi.png"
     }
   ]
 }
