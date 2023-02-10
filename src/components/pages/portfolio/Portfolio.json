@@ -6,12 +6,20 @@
         "title": "Web 3.0",
         "projects": [
           {
-            "id": 1,
+            "id": 4343431,
             "title": "LaunchChain",
             "description": "Web3 crowdfunding platform",
             "image": "launchchain-project.png",
             "url": "https://launchchain.netlify.app/",
             "source": "https://github.com/h-ferencz/LaunchChain"
+          },
+          {
+            "id": 1123434,
+            "title": "HireBiteSwap",
+            "description": "Simple decentralized exchange",
+            "image": "hire-bite-swap-dex.png",
+            "url": "https://hirebiteswap.vercel.app/",
+            "source": "https://github.com/h-ferencz/swapDex"
           }
         ]
       },
@@ -20,7 +28,7 @@
         "title": "Web 2.0",
         "projects": [
           {
-            "id": 1,
+            "id": 12111,
             "title": "Whaleportal",
             "description": "Crypto trading dashboard",
             "image": "whaleportal-project.png",
