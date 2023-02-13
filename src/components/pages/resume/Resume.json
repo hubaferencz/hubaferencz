@@ -1,153 +1,166 @@
 {
   "resume": [
     {
-      "id": 1,
+      "id": 13245234,
       "icon": "book-outline",
       "title": "Education",
       "items": [
         {
-          "id": 1,
+          "id": 2354351,
           "title": "freeCodeCamp",
           "date": "2018 - 2020",
           "description": "I started my developer journey at freeCodeCamp.org when I was 14 and didn't speak English. I've been learning ever since."
         },
         {
-          "id": 2,
+          "id": 543242,
           "title": "Python Bootcamp",
           "date": "2020",
-          "description": "I was advised to learn Python as my first programming language, even if I wanted to learn web development.",
+          "description": "I learned Python as my first programming language, as it's considered a beginner-friendly language that makes it easier to understand fundamental programming concepts.",
           "link": "https://drive.google.com/file/d/1MDEoR2BwLWB2XJGTiHNO7c7HhGutJLQj/view?usp=share_link"
         },
         {
-          "id": 3,
+          "id": 52345233,
           "title": "Web Development Bootcamp",
           "date": "2020 - 2021",
-          "description": "I really mastered my web development skills with this bootcamp. I learned React, Node.js, Express, MongoDB, and more.",
+          "description": "I really mastered my web development skills with this boot camp. I learned React, Node.js, Express, how databases work and more.",
           "link": "https://drive.google.com/file/d/1LYRFoMVm3hHZz-ssVzYkvv5jjoWbG3D2/view?usp=share_link"
         },
         {
-          "id": 4,
+          "id": 23452344,
           "title": "High Shcool graduation",
           "date": "2022",
-          "description": "I dropped out of high school to focus on my developer journey. I took the GED test to earn a High School Equivalency Credential.",
+          "description": "With a focus on my developer journey, I made the decision to drop out of high school 3 years prior to graduation and graduate early, taking the GED test, allowing me to earn my High School Equivalency Credential.",
           "link": "https://drive.google.com/file/d/12evBz3_7w2L1QkUdSN_MMbmwXwBB42GL/view?usp=share_link"
         }
       ]
     },
     {
-      "id": 2,
+      "id": 2234333,
       "icon": "hammer-outline",
       "title": "Experience",
       "items": [
         {
-          "id": 1,
+          "id": 5234531,
           "title": "Freelancing",
           "date": "2020",
           "description": "I made automations using Python for example Twitter, Twitch, and Discord bots. I attached one of the major bots I made, it tweets the \"crypto fear and greed index\" and the average funding rate across all major crypto exchanges.",
           "link": "https://twitter.com/whaleportal"
         },
         {
-          "id": 2,
-          "title": "Whaleportal",
-          "date": "2020 - 2021",
-          "description": "The YouTuber (@TheBlockchainToday) for whom I built a Twitter bot, asked me if I would like to build out his project. He explained the idea he had, and I built Whaleportal from an idea as you see it today.",
-          "link": "https://whaleportal.com/"
-        },
-        {
-          "id": 3,
+          "id": 4254233,
           "title": "Moonlanding Media",
           "date": "2021",
           "description": "At Moonlanding Media I was hired to build out a function on their site that allows their clients to estimate growth on their projects based on time and money invested.",
           "link": "https://whaleportal.com/"
+        },
+        {
+          "id": 423232,
+          "title": "Whaleportal",
+          "date": "2021 - 2022",
+          "description": "Crypto YouTuber (@TheBlockchainToday) for whom I built a Twitter bot, asked me if I would like to build out his project. He explained the idea he had, and I built Whaleportal from an idea as you see it today.",
+          "link": "https://whaleportal.com/"
+        },
+        {
+          "id": 32412,
+          "title": "Walletportal",
+          "date": "2023",
+          "description": "This is a personal project of mine, you can track your crypto portfolio and synchronize across devices if you log in with Google.",
+          "link": "https://walletportal.org/"
         }
+        
       ]
     }
   ],
   "skills": [
     {
-      "id": 132,
+      "id": 133332,
       "title": "Solidity",
       "icon": "devicon-solidity-plain colored"
     },
     {
-      "id": 1,
+      "id": 1423422,
       "title": "ReactJs",
       "icon": "devicon-react-original colored"
     },
     {
-      "id": 2,
+      "id": 14234243432,
+      "title": "Next.js",
+      "icon": "devicon-nextjs-original-wordmark"
+    },
+    {
+      "id": 34232,
       "title": "Git",
       "icon": "devicon-git-plain colored"
     },
     {
-      "id": 2,
+      "id": 145252,
       "title": "Truffle",
       "img": "https://seeklogo.com/images/T/truffle-logo-2DC7EBABF2-seeklogo.com.png?v=637807957740000000"
     },
     {
-      "id": 2,
+      "id": 412362,
       "title": "Web3Js",
       "img": "https://seeklogo.com/images/W/web3js-logo-62DEE79B50-seeklogo.com.png"
     },
     {
-      "id": 2,
+      "id": 198172,
       "title": "Ganache",
       "img": "https://seeklogo.com/images/G/ganache-logo-1EB72084A8-seeklogo.com.png"
     },
     {
-      "id": 2,
+      "id": 352322,
       "title": "GitHub",
       "icon": "devicon-github-original colored"
     },
     {
-      "id": 2,
+      "id": 25344,
+      "title": "TypeScript",
+      "icon": "devicon-typescript-plain colored"
+    },
+    {
+      "id": 4112,
       "title": "ViteJs",
       "img": "https://vitejs.dev/logo-with-shadow.png"
     },
     {
-      "id": 2,
+      "id": 223,
       "title": "JavaScript",
       "icon": "devicon-javascript-plain colored"
     },
     {
-      "id": 7,
+      "id": 75467,
       "title": "NodeJs",
       "icon": "devicon-nodejs-plain colored"
     },
 
     {
-      "id": 7,
+      "id": 76622,
       "title": "Firebase",
       "icon": "devicon-firebase-plain colored"
     },
     {
-      "id": 8,
+      "id": 12358,
       "title": "Express",
       "icon": "devicon-express-original colored"
     },
     {
-      "id": 8,
-      "title": "MongoDB",
-      "icon": "devicon-mongodb-plain colored"
-    },
-    {
-      "id": 3,
+      "id": 39875865,
       "title": "thirdweb",
       "img": "https://i.ibb.co/ykRYDky/third-web.png"
     },
 
     {
-      "id": 3,
+      "id": 3421,
       "title": "Tailwind",
       "icon": "devicon-tailwindcss-plain colored"
     },
     {
-      "id": 3,
+      "id": 3212366666,
       "title": "Alchemy",
       "img": "https://i.ibb.co/zJTjLdd/Alchemy-Logo-Icon.png"
     },
     {
-      "id": 3,
+      "id": 351234,
       "title": "Moralis",
       "img": "https://i.ibb.co/kGXBX8t/moralis.png"
     },
@@ -157,17 +170,17 @@
       "img": "https://i.ibb.co/7K4zwRz/1inch.png"
     },
     {
-      "id": 5,
+      "id": 5111,
       "title": "Sass",
       "icon": "devicon-sass-original colored"
     },
     {
-      "id": 5,
+      "id": 5332,
       "title": "Hardhat",
       "img": "https://i.ibb.co/LPMzCPs/Hardhat-Logo-Icon.png"
     },
     {
-      "id": 6,
+      "id": 641234,
       "title": "wagmi",
       "img": "https://i.ibb.co/G0KTcTT/wagmi.png"
     }

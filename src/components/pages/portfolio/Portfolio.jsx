@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import portfolioData from "./Portfolio.json";
+import PortfolioItem from "./PortfolioItem";
+import { Helmet } from "react-helmet-async";
 
 function Portfolio() {
   // create filter function for portfolio
@@ -103,60 +105,47 @@ function Portfolio() {
   const [portfolio] = useState(portfolioData.portfolio.categories);
 
   return (
-    <article className="portfolio active" data-page="portfolio">
-      <header>
-        <h2 className="h2 article-title">Portfolio</h2>
-      </header>
-      <section className="projects">
-        {/* create ul filter-list with filter functionality */}
-        <ul className="filter-list">
-          <li className="filter-item">
-            <button
-              className="filter-btn active"
-              data-filter-btn="all"
-              onClick={filter}
-            >
-              All
-            </button>
-          </li>
-          {/* map through portfolio and create filter-item */}
-          {portfolio.map((item) => {
-            return (
-              <li className="filter-item" key={item.id}>
-                <button
-                  className="filter-btn"
-                  data-filter-btn={item.title}
-                  onClick={filter}
-                >
-                  {item.title}
-                </button>
-              </li>
-            );
-          })}
-        </ul>
-        {/* create filter-select-box with select functionality */}
-        <div className="filter-select-box">
-          <button className="filter-select" data-select onClick={select}>
-            <span className="filter-value" data-selecct-value>
-              All
-            </span>
-            <span className="filter-icon">
-              <i className="fas fa-chevron-down"></i>
-            </span>
-          </button>
-          <ul className="select-list" data-select-list>
-            {/* map through portfolio and create select-item */}
-            <li className="select-item" data-select-item>
-              <button data-select-item data-filter-btn="all" onClick={filter}>
-                {" "}
+    <>
+      <Helmet>
+        <title>Portfolio - Huba Ferencz - Web3 Developer</title>
+        <meta
+          name="description"
+          content="Check out the impressive portfolio of web3 developer Huba Ferencz. View his latest projects and experience in the industry."
+        />
+
+        <meta
+          property="og:image"
+          content="https://hubaferencz.com/static/media/huba%20ferencz%20portfolio.b28ccb7d43ff56e663e8.png"
+        />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="420" />
+        <meta property="og:image:height" content="420" />
+
+        <link rel="canonical" href="/portfolio" />
+      </Helmet>
+
+      <article className="portfolio active" data-page="portfolio">
+        <header>
+          <h2 className="h2 article-title">Portfolio</h2>
+        </header>
+        <section className="projects">
+          {/* create ul filter-list with filter functionality */}
+          <ul className="filter-list">
+            <li className="filter-item">
+              <button
+                className="filter-btn active"
+                data-filter-btn="all"
+                onClick={filter}
+              >
                 All
               </button>
             </li>
+            {/* map through portfolio and create filter-item */}
             {portfolio.map((item) => {
               return (
-                <li className="select-item" data-select-item key={item.id}>
+                <li className="filter-item" key={item.id}>
                   <button
-                    data-select-item
+                    className="filter-btn"
                     data-filter-btn={item.title}
                     onClick={filter}
                   >
@@ -166,51 +155,51 @@ function Portfolio() {
               );
             })}
           </ul>
-        </div>
+          {/* create filter-select-box with select functionality */}
+          <div className="filter-select-box">
+            <button className="filter-select" data-select onClick={select}>
+              <span className="filter-value" data-selecct-value>
+                All
+              </span>
+              <span className="filter-icon">
+                <i className="fas fa-chevron-down"></i>
+              </span>
+            </button>
+            <ul className="select-list" data-select-list>
+              {/* map through portfolio and create select-item */}
+              <li className="select-item" data-select-item>
+                <button data-select-item data-filter-btn="all" onClick={filter}>
+                  {" "}
+                  All
+                </button>
+              </li>
+              {portfolio.map((item) => {
+                return (
+                  <li className="select-item" data-select-item key={item.id}>
+                    <button
+                      data-select-item
+                      data-filter-btn={item.title}
+                      onClick={filter}
+                    >
+                      {item.title}
+                    </button>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
 
-        <ul className="project-list">
-          {/* map through portfolio */}
-          {portfolio.map((category) => {
-            return category.projects.map((project) => {
-              return (
-                <li
-                  key={project.id}
-                  className="project-item active"
-                  data-filter-item
-                  data-category={category.title}
-                >
-                  <figure className="project-img">
-                    <div className="project-item-icon-box">
-                      <div className="project-item-icon">
-                        <a href={project.url} target="_blank">
-                          <ion-icon name="eye-outline" />
-                        </a>
-                      </div>
-                      {/* check if project has project.source only render if has */}
-                       {project.source && (
-                        <div className="project-item-icon">
-                          <a href={project.source} target="_blank">
-                            <ion-icon name="link-outline" />
-                          </a>
-                        </div>
-                      )}
-                    </div>
-                    <img
-                      src={require("../../images/" + project.image)}
-                      alt={project.title}
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 className="project-title">{project.title}</h3>
-                  <p className="project-category">{project.description}</p>
-                </li>
-              );
-            });
-          })}
-        </ul>
-      </section>
-    </article>
+          <ul className="project-list">
+            {/* map through portfolio */}
+            {portfolio.map((category) => {
+              return category.projects.map((project) => {
+                return <PortfolioItem category={category} project={project} />;
+              });
+            })}
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }
 

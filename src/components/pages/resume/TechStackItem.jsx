@@ -5,7 +5,7 @@ function TechStackItem(props) {
   if (props.icon) {
     return (
       <div className="tech-container">
-        <i className={props.icon} />
+        <i className={props.icon} alt={props.title + " skill item"} />
 
         {props.title}
       </div>
@@ -14,7 +14,7 @@ function TechStackItem(props) {
     return (
       <div className="tech-container">
         <i>
-          <img src={props.img} alt={props.title} width={48} />
+          <img src={props.img} alt={props.title + " skill item"} width={48} />
         </i>
         {props.title}
       </div>

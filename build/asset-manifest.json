@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.60979aac.css",
-    "main.js": "/static/js/main.728e9858.js",
+    "main.css": "/static/css/main.977cd0d4.css",
+    "main.js": "/static/js/main.303392f5.js",
     "static/media/moonlanding-project.png": "/static/media/moonlanding-project.2a4ab9589052e58758d7.png",
     "static/media/launchchain-project.png": "/static/media/launchchain-project.af63e6e0ffc0718451ad.png",
     "static/media/hire-bite-swap-dex.png": "/static/media/hire-bite-swap-dex.9a11a71f03f39fed1bc3.png",
@@ -21,11 +21,11 @@
     "static/media/hireBite.png": "/static/media/hireBite.246af676bc0d3495361d.png",
     "static/media/whaleportal.png": "/static/media/whaleportal.83334bce5da3c29eaba7.png",
     "index.html": "/index.html",
-    "main.60979aac.css.map": "/static/css/main.60979aac.css.map",
-    "main.728e9858.js.map": "/static/js/main.728e9858.js.map"
+    "main.977cd0d4.css.map": "/static/css/main.977cd0d4.css.map",
+    "main.303392f5.js.map": "/static/js/main.303392f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.60979aac.css",
-    "static/js/main.728e9858.js"
+    "static/css/main.977cd0d4.css",
+    "static/js/main.303392f5.js"
   ]
 }

@@ -1,15 +1,17 @@
 import React from "react";
-import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import toast from "react-hot-toast";
 
 function ContactItem(props) {
-  const notify = () => toast.success(props.title + " copied to clipboard");
+  // const notify = () => toast.success(props.title + " copied to clipboard");
+
+  const notify = () => toast(props.title + " copied to clipboard");
 
   // check if the contact item is copyable
   if (props.copyable) {
     return (
       <>
-        <li style={{ cursor: "pointer" }}
+        <li
+          style={{ cursor: "pointer" }}
           className="contact-item"
           onClick={() => {
             navigator.clipboard.writeText(props.text);
@@ -17,12 +19,19 @@ function ContactItem(props) {
           }}
         >
           <div className="icon-box">
-            <ion-icon name={props.icon} />
+            <ion-icon name={props.icon} alt={props.title} />
           </div>
           <div className="contact-info">
             <p className="contact-title">
               {props.title}
-              <ion-icon className="clipboard" name="clipboard-outline" />
+
+              <span>copy</span>
+
+              <ion-icon
+                className="clipboard"
+                name="copy-outline"
+                alt={"copy " + props.title}
+              />
             </p>
             <p className="contact-link">{props.text}</p>
           </div>

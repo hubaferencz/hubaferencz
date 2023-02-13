@@ -12,7 +12,9 @@ function TimelineItem(props) {
         <h4 className="h4 timeline-item-title">
           {props.title}
 
-          {props.link && <ion-icon name="link-outline" />}
+          {props.link && (
+            <ion-icon name="link-outline" alt="open timeline item" />
+          )}
         </h4>
       </a>
       <span>{props.date}</span>

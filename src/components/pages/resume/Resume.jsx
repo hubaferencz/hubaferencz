@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import resumeData from "./Resume.json";
 import Timeline from "./Timeline";
 import TechStackItem from "./TechStackItem";
+import { Helmet } from "react-helmet-async";
 
 function Resume() {
   let [resume] = useState(resumeData.resume);
@@ -9,6 +10,23 @@ function Resume() {
 
   return (
     <>
+      <Helmet>
+        <title>Resume - Huba Ferencz - Web3 Developer</title>
+        <meta
+          name="description"
+          content="Huba Ferencz's professional resume as a skilled web3 developer. View experience, skills, & achievements in the industry."
+        />
+
+        <meta
+          property="og:image"
+          content="https://hubaferencz.com/static/media/huba%20ferencz%20resume.637dbfff7cdf5986173b.png"
+        />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="420" />
+        <meta property="og:image:height" content="420" />
+
+        <link rel="canonical" href="/resume" />
+      </Helmet>
       <article className="resume active" data-page="resume">
         <header>
           <h2 className="h2 article-title">Resume</h2>
@@ -27,7 +45,7 @@ function Resume() {
         <section className="timeline">
           <div className="title-wrapper">
             <div className="icon-box">
-              <ion-icon name="list-outline" />
+              <ion-icon name="list-outline" alt="tech stack skills" />
             </div>
             <h3 className="h3">Tech Stack</h3>
           </div>
@@ -38,7 +56,7 @@ function Resume() {
               <TechStackItem
                 title={item.title}
                 icon={item.icon}
-                key={item.title+item.id}
+                key={item.title + item.id}
                 img={item.img}
               />
             ))}

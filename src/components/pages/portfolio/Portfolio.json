@@ -11,7 +11,7 @@
             "description": "Web3 crowdfunding platform",
             "image": "launchchain-project.png",
             "url": "https://launchchain.netlify.app/",
-            "source": "https://github.com/h-ferencz/LaunchChain"
+            "source": "https://github.com/hubaferencz/LaunchChain"
           },
           {
             "id": 1123434,
@@ -19,7 +19,7 @@
             "description": "Simple decentralized exchange",
             "image": "hire-bite-swap-dex.png",
             "url": "https://hirebiteswap.vercel.app/",
-            "source": "https://github.com/h-ferencz/swapDex"
+            "source": "https://github.com/hubaferencz/swapDex"
           }
         ]
       },
@@ -40,7 +40,7 @@
             "description": "Crypto portfolio tracker",
             "image": "walletportal-project.png",
             "url": "https://walletportal.org/",
-            "source": "https://github.com/h-ferencz/walletportal"
+            "source": "https://github.com/hubaferencz/walletportal"
           },
           {
             "id": 2234,

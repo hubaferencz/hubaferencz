@@ -1,13 +1,13 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import toast from "react-hot-toast";
 
 const EmailContactForm = () => {
   const form = useRef();
 
   const notify = () =>
-    toast.success("Message sent! I'll get back to you as soon as I can.");
+    toast("Message sent! I'll get back to you as soon as I can.");
+
   // create state variables for each input
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -73,7 +73,7 @@ const EmailContactForm = () => {
         onChange={(e) => setMessage(e.target.value)}
       />
       <button className="form-btn" type="submit" value="Send">
-        <ion-icon name="paper-plane" />
+        <ion-icon name="paper-plane" alt={"send email icon"} />
         <span>Send Message</span>
       </button>
     </form>

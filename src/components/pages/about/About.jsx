@@ -12,16 +12,24 @@ import Joshua from "../../images/Joshua.png";
 
 import Client1 from "../../images/moonlanding-media.png";
 import Client2 from "../../images/whaleportal.png";
-import Client3 from "../../images/hireBite.png";
+// import Client3 from "../../images/hireBite.png";
 import Client4 from "../../images/walletportal.png";
 
+import { Helmet } from "react-helmet-async";
+
 function About() {
+  const aboutParagraphs = [
+    "I'm a Web developer with a passion for turning cool ideas into amazing web apps. I love the process of designing, developing, testing, and deploying projects that make a real difference in people's lives.",
+    "Whether it's for my clients or for myself, I always strive to create web apps that are not only functional but also user-friendly and visually appealing. I believe that a good web app should be easy to use, convey a company's message effectively, and bring out their unique identity.",
+    "I'm excited to explore the exciting world of Web3, but I also have a solid foundation in traditional Web development. So, whether you're looking to build a custom web solution for your business or have a one-of-a-kind idea for a web project, I'm your guy. Don't hesitate to reach out!",
+  ];
+
   // service cars array
   const serviceCards = [
     {
       icon: WebDev,
       title: "Web development",
-      text: "High-quality, responsive development of sites at the professional level.",
+      text: "High-quality, responsive web app development with SEO optimization",
     },
     {
       icon: BlockchainDev,
@@ -44,7 +52,7 @@ function About() {
     {
       img: Joshua,
       name: "Joshua",
-      text: "Excellent communicator. He works very hard and quickly. ",
+      text: "Excellent communicator. He works very hard and quickly.",
     },
   ];
 
@@ -54,11 +62,11 @@ function About() {
       name: "Whaleportal",
       link: "https://whaleportal.com/",
     },
-    {
-      img: Client3,
-      name: "hireBite",
-      link: "https://hirebite.com/",
-    },
+    // {
+    //   img: Client3,
+    //   name: "hireBite",
+    //   link: "https://hirebite.com/",
+    // },
     {
       img: Client4,
       name: "Walletportal",
@@ -73,27 +81,28 @@ function About() {
 
   return (
     <>
+      <Helmet>
+        <title>Huba Ferencz - Web3 Developer</title>
+        <meta
+          name="description"
+          content="Discover Huba Ferencz, a professional web3 developer and designer. Explore his portfolio, read about his skills and approach to web design."
+        />
+
+        <meta property="og:image" content="https://hubaferencz.com/static/media/huba%20ferencz%20about.42cdc88e030d9a9a5229.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="420" />
+        <meta property="og:image:height" content="420" />
+
+        <link rel="canonical" href="/" />
+      </Helmet>
       <article className="about  active" data-page="about">
         <header>
           <h2 className="h2 article-title">About me</h2>
         </header>
         <section className="about-text">
-          <p>
-            I am a Web developer, working in the traditional Web and dipping my
-            toe in the Web3 space. I enjoy turning mere ideas into
-            production-ready web applications, ready to scale and make people's
-            lives easier. I'm used to designing, developing, testing, and
-            deploying my clients' or my own projects.
-          </p>
-          <p>
-            My job is to create your web app so that it is functional and
-            user-friendly. Moreover, I make sure that the site is eye-catching
-            and easy to use. I aim to bring across your company's message,
-            identity, and goals in the most creative way possible. If you feel
-            like I would be a good fit for your company or have a project that
-            needs to be built, please don't hesitate to contact me. I would be
-            more than delighted to work with you!
-          </p>
+          {aboutParagraphs.map((paragraph) => {
+            return <p key={paragraph.slice(5)}>{paragraph}</p>;
+          })}
         </section>
         {/*
     - service

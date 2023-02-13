@@ -27,25 +27,25 @@ function Profile(props) {
     {
       icon: "calendar-outline",
       title: "Birthday",
-      text: "December 20, 2004",
+      text: "Dec 20, 2004",
       copyable: false,
     },
-    {
-      icon: "location-outline",
-      title: "Location",
-      text: "Budapest, Hungary",
-      copyable: false,
-    },
+    // {
+    //   icon: "location-outline",
+    //   title: "Location",
+    //   text: "Budapest, Hungary",
+    //   copyable: false,
+    // },
   ];
 
   const socialList = [
     {
       logo: "logo-twitter",
-      link: "https://www.twitter.com/huba__ferencz",
+      link: "https://www.twitter.com/HubaFerencz",
     },
     {
       logo: "logo-github",
-      link: "https://www.github.com/h-ferencz/",
+      link: "https://www.github.com/hubaferencz/",
     },
     {
       logo: "logo-linkedin",
@@ -77,12 +77,14 @@ function Profile(props) {
     }
   }, [pathname, props]);
 
+  let profileAlt = props.profileImage.replace(".png",'').replace("/static/media/",'').split('.')[0]
+
   return (
     <>
       <aside className="sidebar" data-sidebar="">
         <div className="sidebar-info">
           <figure className="avatar-box">
-            <img src={props.profileImage} alt="Huba Ferencz" width={80} />
+            <img src={props.profileImage} alt={profileAlt} width={80} />
           </figure>
           <div className="info-content">
             <h1 className="name" title="Huba Ferencz">

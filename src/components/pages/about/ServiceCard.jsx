@@ -5,11 +5,7 @@ function ServiceCard(props) {
     <>
       <li className="service-item disable-select">
         <div className="service-icon-box">
-          <img
-            src={props.icon}
-            alt="icon"
-            width={50}
-          />
+          <img src={props.icon} alt={props.title} width={50} />
         </div>
         <div className="service-content-box">
           <h4 className="h4 service-item-title">{props.title}</h4>
