@@ -82,38 +82,10 @@ function About() {
   return (
     <>
       <Helmet>
-        {/* HTML Meta Tags  */}
         <title>Huba Ferencz - Web3 Developer</title>
         <meta
           name="description"
           content="Discover Huba Ferencz, a professional web3 developer and designer. Explore his portfolio, read about his skills and approach to web design."
-        />
-
-        {/* Facebook Meta Tags */}
-        <meta property="og:url" content="https://hubaferencz.com/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Huba Ferencz - Web3 Developer" />
-        <meta
-          property="og:description"
-          content="Discover Huba Ferencz, a professional web3 developer and designer. Explore his portfolio, read about his skills and approach to web design."
-        />
-        <meta
-          property="og:image"
-          content="https://hubaferencz.com/static/media/huba%20ferencz%20about.42cdc88e030d9a9a5229.png"
-        />
-
-        {/* Twitter Meta Tags  */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="hubaferencz.com" />
-        <meta property="twitter:url" content="https://hubaferencz.com/" />
-        <meta name="twitter:title" content="Huba Ferencz - Web3 Developer" />
-        <meta
-          name="twitter:description"
-          content="Discover Huba Ferencz, a professional web3 developer and designer. Explore his portfolio, read about his skills and approach to web design."
-        />
-        <meta
-          name="twitter:image"
-          content="https://hubaferencz.com/static/media/huba%20ferencz%20about.42cdc88e030d9a9a5229.png"
         />
 
         <link rel="canonical" href="/" />

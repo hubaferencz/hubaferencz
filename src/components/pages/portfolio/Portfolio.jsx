@@ -113,14 +113,6 @@ function Portfolio() {
           content="Check out the impressive portfolio of web3 developer Huba Ferencz. View his latest projects and experience in the industry."
         />
 
-        <meta
-          property="og:image"
-          content="https://hubaferencz.com/static/media/huba%20ferencz%20portfolio.b28ccb7d43ff56e663e8.png"
-        />
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:width" content="420" />
-        <meta property="og:image:height" content="420" />
-
         <link rel="canonical" href="/portfolio" />
       </Helmet>
 

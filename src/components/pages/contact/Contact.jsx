@@ -12,14 +12,6 @@ function Contact() {
           content="Get in touch with web3 developer Huba Ferencz. Fill out the contact form or find his email and social media links on navigation bar."
         />
 
-        <meta
-          property="og:image"
-          content="https://hubaferencz.com/static/media/huba%20ferencz%20contact.f3b00bca8f0d9e6d4a4d.png"
-        />
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:width" content="420" />
-        <meta property="og:image:height" content="420" />
-
         <link rel="canonical" href="/contact" />
       </Helmet>
 
