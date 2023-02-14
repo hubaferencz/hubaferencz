@@ -50,13 +50,13 @@
           "id": 4254233,
           "title": "Moonlanding Media",
           "date": "2021",
-          "description": "At Moonlanding Media I was hired to build out a function on their site that allows their clients to estimate growth on their projects based on time and money invested.",
-          "link": "https://whaleportal.com/"
+          "description": "At Moonlanding Media I was hired to build out a dashboard to manage therir twitter accounts.",
+          "link": "https://moonlanding.media/"
         },
         {
           "id": 423232,
           "title": "Whaleportal",
-          "date": "2021 - 2022",
+          "date": "2022",
           "description": "Crypto YouTuber (@TheBlockchainToday) for whom I built a Twitter bot, asked me if I would like to build out his project. He explained the idea he had, and I built Whaleportal from an idea as you see it today.",
           "link": "https://whaleportal.com/"
         },
@@ -67,7 +67,6 @@
           "description": "This is a personal project of mine, you can track your crypto portfolio and synchronize across devices if you log in with Google.",
           "link": "https://walletportal.org/"
         }
-        
       ]
     }
   ],
