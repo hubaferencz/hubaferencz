@@ -1989,28 +1989,6 @@ textarea.form-input::-webkit-resizer {
   transition: 0.2s;
 }
 
-.tech-container::before {
-  content: "";
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  transform: scaleX(0);
-  width: 100%;
-  height: 3px;
-  border-radius: 1.5;
-  background: var(--text-gradient-green);
-  transition: 0.3s ease-in-out;
-}
-
-.tech-container:hover::before {
-  transform: scaleX(1);
-}
-
-.tech-container:hover {
-  transition: 0.3s ease;
-  background-color: var(--white-1);
-  color: #252525;
-}
 
 .tech-container i {
   font-size: 3rem;
