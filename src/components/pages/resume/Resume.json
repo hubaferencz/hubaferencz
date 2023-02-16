@@ -139,8 +139,8 @@
     },
     {
       "id": 12358,
-      "title": "Express",
-      "icon": "devicon-express-original colored"
+      "title": "Figma",
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
     },
     {
       "id": 39875865,
@@ -174,14 +174,14 @@
       "icon": "devicon-sass-original colored"
     },
     {
+      "id": 522111,
+      "title": "Webflow",
+      "icon": "devicon-webflow-original colored"
+    },
+    {
       "id": 5332,
       "title": "Hardhat",
       "img": "https://i.ibb.co/LPMzCPs/Hardhat-Logo-Icon.png"
-    },
-    {
-      "id": 641234,
-      "title": "wagmi",
-      "img": "https://i.ibb.co/G0KTcTT/wagmi.png"
     }
   ]
 }
