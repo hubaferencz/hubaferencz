@@ -102,7 +102,7 @@ function About() {
         {/*
     - service
   */}
-        <section className="service">
+        {/* <section className="service">
           <h3 className="h3 service-title">What i'm doing</h3>
           <ul className="service-list">
             {serviceCards.map((serviceCard) => (
@@ -114,7 +114,7 @@ function About() {
               />
             ))}
           </ul>
-        </section>
+        </section> */}
         {/*
     - testimonials
   */}
