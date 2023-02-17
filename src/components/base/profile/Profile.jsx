@@ -90,7 +90,7 @@ function Profile(props) {
             <h1 className="name" title="Huba Ferencz">
               Huba Ferencz
             </h1>
-            <p className="title">Web3 Developer</p>
+            <p className="title">Web Developer</p>
           </div>
           <button
             className="info_more-btn"

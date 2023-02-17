@@ -122,7 +122,7 @@ function Portfolio() {
         </header>
         <section className="projects">
           {/* create ul filter-list with filter functionality */}
-          <ul className="filter-list">
+          {/* <ul className="filter-list">
             <li className="filter-item">
               <button
                 className="filter-btn active"
@@ -132,7 +132,7 @@ function Portfolio() {
                 All
               </button>
             </li>
-            {/* map through portfolio and create filter-item */}
+
             {portfolio.map((item) => {
               return (
                 <li className="filter-item" key={item.id}>
@@ -146,9 +146,9 @@ function Portfolio() {
                 </li>
               );
             })}
-          </ul>
+          </ul> */}
           {/* create filter-select-box with select functionality */}
-          <div className="filter-select-box">
+          {/* <div className="filter-select-box">
             <button className="filter-select" data-select onClick={select}>
               <span className="filter-value" data-selecct-value>
                 All
@@ -158,7 +158,6 @@ function Portfolio() {
               </span>
             </button>
             <ul className="select-list" data-select-list>
-              {/* map through portfolio and create select-item */}
               <li className="select-item" data-select-item>
                 <button data-select-item data-filter-btn="all" onClick={filter}>
                   {" "}
@@ -179,10 +178,9 @@ function Portfolio() {
                 );
               })}
             </ul>
-          </div>
+          </div> */}
 
           <ul className="project-list">
-            {/* map through portfolio */}
             {portfolio.map((category) => {
               return category.projects.map((project) => {
                 return <PortfolioItem category={category} project={project} />;

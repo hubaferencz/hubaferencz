@@ -72,40 +72,17 @@
   ],
   "skills": [
     {
-      "id": 133332,
-      "title": "Solidity",
-      "icon": "devicon-solidity-plain colored"
-    },
-    {
       "id": 1423422,
       "title": "ReactJs",
       "icon": "devicon-react-original colored"
     },
-    {
-      "id": 14234243432,
-      "title": "Next.js",
-      "icon": "devicon-nextjs-original-wordmark"
-    },
+
     {
       "id": 34232,
       "title": "Git",
       "icon": "devicon-git-plain colored"
     },
-    {
-      "id": 145252,
-      "title": "Truffle",
-      "img": "https://seeklogo.com/images/T/truffle-logo-2DC7EBABF2-seeklogo.com.png?v=637807957740000000"
-    },
-    {
-      "id": 412362,
-      "title": "Web3Js",
-      "img": "https://seeklogo.com/images/W/web3js-logo-62DEE79B50-seeklogo.com.png"
-    },
-    {
-      "id": 198172,
-      "title": "Ganache",
-      "img": "https://seeklogo.com/images/G/ganache-logo-1EB72084A8-seeklogo.com.png"
-    },
+
     {
       "id": 352322,
       "title": "GitHub",
@@ -153,21 +130,7 @@
       "title": "Tailwind",
       "icon": "devicon-tailwindcss-plain colored"
     },
-    {
-      "id": 3212366666,
-      "title": "Alchemy",
-      "img": "https://i.ibb.co/zJTjLdd/Alchemy-Logo-Icon.png"
-    },
-    {
-      "id": 351234,
-      "title": "Moralis",
-      "img": "https://i.ibb.co/kGXBX8t/moralis.png"
-    },
-    {
-      "id": 4,
-      "title": "1inch",
-      "img": "https://i.ibb.co/7K4zwRz/1inch.png"
-    },
+
     {
       "id": 5111,
       "title": "Sass",
@@ -177,11 +140,6 @@
       "id": 522111,
       "title": "Webflow",
       "icon": "devicon-webflow-original colored"
-    },
-    {
-      "id": 5332,
-      "title": "Hardhat",
-      "img": "https://i.ibb.co/LPMzCPs/Hardhat-Logo-Icon.png"
     }
   ]
 }

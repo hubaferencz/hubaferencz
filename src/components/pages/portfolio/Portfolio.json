@@ -1,28 +1,7 @@
 {
   "portfolio": {
     "categories": [
-      {
-        "id": "1",
-        "title": "Web 3.0",
-        "projects": [
-          {
-            "id": 4343431,
-            "title": "LaunchChain",
-            "description": "Web3 crowdfunding platform",
-            "image": "launchchain-project.png",
-            "url": "https://launchchain.netlify.app/",
-            "source": "https://github.com/hubaferencz/LaunchChain"
-          },
-          {
-            "id": 1123434,
-            "title": "HireBiteSwap",
-            "description": "Simple decentralized exchange",
-            "image": "hire-bite-swap-dex.png",
-            "url": "https://hirebiteswap.vercel.app/",
-            "source": "https://github.com/hubaferencz/swapDex"
-          }
-        ]
-      },
+      
       {
         "id": "2",
         "title": "Web 2.0",
