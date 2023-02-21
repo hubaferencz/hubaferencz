@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.d051b5fe.css",
-    "main.js": "/static/js/main.2de00e64.js",
+    "main.css": "/static/css/main.e608873a.css",
+    "main.js": "/static/js/main.9affad09.js",
+    "static/media/dister-project.png": "/static/media/dister-project.ae5b3557fb434e0476e8.png",
     "static/media/moonlanding-project.png": "/static/media/moonlanding-project.0a0ab6cec59e68642fad.png",
+    "static/media/huba ferencz resume.png": "/static/media/huba ferencz resume.9bbe62ce7e59673034cc.png",
+    "static/media/huba ferencz contact.png": "/static/media/huba ferencz contact.60080c1cc51471311db1.png",
+    "static/media/huba ferencz portfolio.png": "/static/media/huba ferencz portfolio.36d2e38bbe157c7f23ae.png",
+    "static/media/huba ferencz about.png": "/static/media/huba ferencz about.522f70b5c323e143744d.png",
     "static/media/launchchain-project.png": "/static/media/launchchain-project.bc5f7aa5975d90196d37.png",
     "static/media/hire-bite-swap-dex.png": "/static/media/hire-bite-swap-dex.109570ce48bfb336193b.png",
     "static/media/walletportal-project.png": "/static/media/walletportal-project.cf99b8e72706c04a83c9.png",
     "static/media/whaleportal-project.png": "/static/media/whaleportal-project.8503b25252597012e345.png",
-    "static/media/huba ferencz about.png": "/static/media/huba ferencz about.1ef6e400b32c85fa79ef.png",
-    "static/media/huba ferencz contact.png": "/static/media/huba ferencz contact.824909e964fd3d94acbe.png",
-    "static/media/huba ferencz resume.png": "/static/media/huba ferencz resume.d8c7b9eac696f404828e.png",
     "static/media/Rebekah.png": "/static/media/Rebekah.6e17a2f99a1769c2a49a.png",
     "static/media/blockchain.png": "/static/media/blockchain.a0e3e41f113370331ce5.png",
     "static/media/walletportal.png": "/static/media/walletportal.43041b1750b24bddf7a3.png",
-    "static/media/huba ferencz portfolio.png": "/static/media/huba ferencz portfolio.af252c186cd0502bbf6e.png",
     "static/media/moonlanding-media.png": "/static/media/moonlanding-media.9f3717095b22513269a1.png",
     "static/media/web-programming.png": "/static/media/web-programming.6f08c90f817364ed79ae.png",
     "static/media/hireBite.png": "/static/media/hireBite.c31e2eb3275acef21054.png",
@@ -21,11 +22,11 @@
     "static/media/whaleportal.png": "/static/media/whaleportal.83334bce5da3c29eaba7.png",
     "static/media/Joshua.png": "/static/media/Joshua.85660dfafa83725fc300.png",
     "index.html": "/index.html",
-    "main.d051b5fe.css.map": "/static/css/main.d051b5fe.css.map",
-    "main.2de00e64.js.map": "/static/js/main.2de00e64.js.map"
+    "main.e608873a.css.map": "/static/css/main.e608873a.css.map",
+    "main.9affad09.js.map": "/static/js/main.9affad09.js.map"
   },
   "entrypoints": [
-    "static/css/main.d051b5fe.css",
-    "static/js/main.2de00e64.js"
+    "static/css/main.e608873a.css",
+    "static/js/main.9affad09.js"
   ]
 }

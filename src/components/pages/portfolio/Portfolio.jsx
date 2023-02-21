@@ -122,7 +122,7 @@ function Portfolio() {
         </header>
         <section className="projects">
           {/* create ul filter-list with filter functionality */}
-          {/* <ul className="filter-list">
+          <ul className="filter-list">
             <li className="filter-item">
               <button
                 className="filter-btn active"
@@ -146,9 +146,9 @@ function Portfolio() {
                 </li>
               );
             })}
-          </ul> */}
+          </ul>
           {/* create filter-select-box with select functionality */}
-          {/* <div className="filter-select-box">
+          <div className="filter-select-box">
             <button className="filter-select" data-select onClick={select}>
               <span className="filter-value" data-selecct-value>
                 All
@@ -178,7 +178,7 @@ function Portfolio() {
                 );
               })}
             </ul>
-          </div> */}
+          </div>
 
           <ul className="project-list">
             {portfolio.map((category) => {

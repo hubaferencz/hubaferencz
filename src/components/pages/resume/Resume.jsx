@@ -4,6 +4,8 @@ import Timeline from "./Timeline";
 import TechStackItem from "./TechStackItem";
 import { Helmet } from "react-helmet-async";
 
+// https://drive.google.com/file/d/1qcvR_T7g9XfVb8l96g73hODmKY37Lqv5/view?usp=share_link
+
 function Resume() {
   let [resume] = useState(resumeData.resume);
   let [skills] = useState(resumeData.skills);
@@ -21,7 +23,17 @@ function Resume() {
       </Helmet>
       <article className="resume active" data-page="resume">
         <header>
-          <h2 className="h2 article-title">Resume</h2>
+          <a
+            href="https://drive.google.com/file/d/1Tt52ky2MFheMrxTGqt-cWb7Lw7e3n2If/view?usp=share_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="resume-link"
+          >
+            <h2 className="h2 article-title">
+              Resume
+              <ion-icon name="link-outline" alt="open timeline item" />
+            </h2>
+          </a>
         </header>
 
         {/* map through resume and create Timeline element for each passing in props*/}
