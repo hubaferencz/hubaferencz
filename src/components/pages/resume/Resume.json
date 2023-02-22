@@ -98,6 +98,11 @@
     },
 
     {
+      "id": 411222,
+      "title": "Babel",
+      "icon": "devicon-babel-plain colored"
+    },
+    {
       "id": 4112,
       "title": "ViteJs",
       "img": "https://vitejs.dev/logo-with-shadow.png"
@@ -112,6 +117,11 @@
       "id": 76622,
       "title": "Firebase",
       "icon": "devicon-firebase-plain colored"
+    },
+    {
+      "id": 76632222,
+      "title": "Webpack",
+      "icon": "devicon-webpack-plain colored"
     },
     {
       "id": 12358,
