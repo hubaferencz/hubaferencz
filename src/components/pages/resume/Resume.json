@@ -108,6 +108,11 @@
       "img": "https://vitejs.dev/logo-with-shadow.png"
     },
     {
+      "id": 412312,
+      "title": "TypeScript",
+      "icon": "devicon-typescript-plain colored"
+    },
+    {
       "id": 75467,
       "title": "NodeJs",
       "icon": "devicon-nodejs-plain colored"
