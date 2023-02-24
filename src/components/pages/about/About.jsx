@@ -85,7 +85,7 @@ function About() {
         <title>Huba Ferencz - Web Developer</title>
         <meta
           name="description"
-          content="Discover Huba Ferencz, a professional web3 developer and designer. Explore his portfolio, read about his skills and approach to web design."
+          content="Discover Huba Ferencz, a professional web developer and designer. Explore his portfolio, read about his skills and approach to web design."
         />
 
         <link rel="canonical" href="/" />

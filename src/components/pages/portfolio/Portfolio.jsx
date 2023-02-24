@@ -107,10 +107,10 @@ function Portfolio() {
   return (
     <>
       <Helmet>
-        <title>Portfolio - Huba Ferencz - Web3 Developer</title>
+        <title>Portfolio - Huba Ferencz - Web Developer</title>
         <meta
           name="description"
-          content="Check out the impressive portfolio of web3 developer Huba Ferencz. View his latest projects and experience in the industry."
+          content="Check out the impressive portfolio of web developer Huba Ferencz. View his latest projects and experience in the industry."
         />
 
         <link rel="canonical" href="/portfolio" />

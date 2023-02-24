@@ -6,10 +6,10 @@ function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact - Huba Ferencz - Web3 Developer</title>
+        <title>Contact - Huba Ferencz - Web Developer</title>
         <meta
           name="description"
-          content="Get in touch with web3 developer Huba Ferencz. Fill out the contact form or find his email and social media links on navigation bar."
+          content="Get in touch with web developer Huba Ferencz. Fill out the contact form or find his email and social media links on navigation bar."
         />
 
         <link rel="canonical" href="/contact" />

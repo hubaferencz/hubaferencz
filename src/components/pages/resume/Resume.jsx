@@ -13,10 +13,10 @@ function Resume() {
   return (
     <>
       <Helmet>
-        <title>Resume - Huba Ferencz - Web3 Developer</title>
+        <title>Resume - Huba Ferencz - Web Developer</title>
         <meta
           name="description"
-          content="Huba Ferencz's professional resume as a skilled web3 developer. View experience, skills, & achievements in the industry."
+          content="Huba Ferencz's professional resume as a skilled web developer. View experience, skills, & achievements in the industry."
         />
 
         <link rel="canonical" href="/resume" />
