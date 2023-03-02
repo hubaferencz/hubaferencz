@@ -10,7 +10,7 @@ import Rebekah from "../../images/Rebekah.png";
 import Jeroen from "../../images/Jeroen.png";
 import Joshua from "../../images/Joshua.png";
 
-import Client1 from "../../images/moonlanding-media.png";
+import Client1 from "../../images/dister.png";
 import Client2 from "../../images/whaleportal.png";
 // import Client3 from "../../images/hireBite.png";
 import Client4 from "../../images/walletportal.png";
@@ -74,8 +74,8 @@ function About() {
     },
     {
       img: Client1,
-      name: "Moonlanding Media",
-      link: "https://moonlanding.media/",
+      name: "Project Dister",
+      link: "http://dister.org/",
     },
   ];
 
