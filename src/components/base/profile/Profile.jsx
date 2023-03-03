@@ -15,7 +15,7 @@ function Profile(props) {
     {
       icon: "mail-outline",
       title: "Email",
-      text: "huba.ferencz.personal@gmail.com",
+      text: "contact@hubaferencz.com",
       copyable: true,
     },
     {
@@ -24,12 +24,12 @@ function Profile(props) {
       text: "@hubaferencz",
       copyable: true,
     },
-    {
-      icon: "calendar-outline",
-      title: "Birthday",
-      text: "Dec 20, 2004",
-      copyable: false,
-    },
+    // {
+    //   icon: "calendar-outline",
+    //   title: "Birthday",
+    //   text: "Dec 20, 2004",
+    //   copyable: false,
+    // },
     // {
     //   icon: "location-outline",
     //   title: "Location",
@@ -77,7 +77,10 @@ function Profile(props) {
     }
   }, [pathname, props]);
 
-  let profileAlt = props.profileImage.replace(".png",'').replace("/static/media/",'').split('.')[0]
+  let profileAlt = props.profileImage
+    .replace(".png", "")
+    .replace("/static/media/", "")
+    .split(".")[0];
 
   return (
     <>
